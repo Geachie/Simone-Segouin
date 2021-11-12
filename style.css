@@ -149,6 +149,7 @@ footer {
 @media screen and (max-width: 600px) {
   .header {
     height: 100vh;
+    /* background-size: contain; */
   }
   .heading-main {
     font-size: 4rem;
