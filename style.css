@@ -181,4 +181,8 @@ footer {
     margin: 4rem auto;
     max-width: 30%;
   }
+
+  blockquote {
+    font-size: 1.7rem;
+  }
 }
