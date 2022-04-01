@@ -146,10 +146,15 @@ footer {
   font-size: 1.6rem;
 }
 
-@media screen and (max-width: 600px) {
+.btn:hover {
+  background-color: rgb(57, 57, 57);
+}
+
+@media screen and (max-width: 900px) {
   .header {
     height: 100vh;
-    /* background-size: contain; */
+    background-size: cover; 
+    max-height: min-content;
   }
   .heading-main {
     font-size: 4rem;
@@ -184,5 +189,9 @@ footer {
 
   blockquote {
     font-size: 1.7rem;
+  }
+
+  .footer-heading {
+    font-size: 3rem;
   }
 }
